@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.top-container {
+  width: 100%;
+  padding: 162px 652px 461px 121px;
+}
+
+.top-container h1 {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.container {
+  padding-top: 133px;
+  display: flex;
+}
+
+.container h3 {
+  color: blue;
+  font-size: 25px;
+}
+
+.box-1{
+ font-family: Roboto;
+ font-style: normal;
+ font-size: 18px;
+}
+
+.box-2 {
+  padding-left: 150px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.box-3 {
+  padding-left: 150px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+}
