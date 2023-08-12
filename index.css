@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .top-container {
   width: 100%;
-  padding: 162px 652px 461px 121px;
+  padding: 162px 0px 214px 121px;
 }
 
 .top-container h1 {
+  color: #000;
   font-family: Roboto Slab;
   font-size: 55px;
   font-style: normal;
   font-weight: 700;
+  line-height: 101.385%;
 }
 
 .container {
@@ -22,27 +24,51 @@
   display: flex;
 }
 
-.container h3 {
-  color: blue;
+.container h2 {
+  color: #1e4681;
+  font-family: Roboto;
   font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
 }
 
-.box-1{
- font-family: Roboto;
- font-style: normal;
- font-size: 18px;
+.box-1 p {
+  width: 223px;
+  height: 43px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.box-2 p {
+  width: 260px;
+  height: 74px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
 }
 
 .box-2 {
-  padding-left: 150px;
+  margin-left: 122px;
+}
+
+.box-3 p {
+  width: 232px;
+  color: #000;
   font-family: Roboto;
-  font-style: normal;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
 }
 
 .box-3 {
-  padding-left: 150px;
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 18px;
+  margin-left: 124px;
 }
